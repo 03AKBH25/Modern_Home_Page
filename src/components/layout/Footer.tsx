@@ -1,7 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import {
   SiGithub,
-  SiLinkedin,
   SiX,
 } from "@icons-pack/react-simple-icons";
 
@@ -75,9 +74,7 @@ function Footer() {
                 <SiX size={14} />
               </SocialButton>
 
-              <SocialButton label="LinkedIn">
-                <SiLinkedin size={14} />
-              </SocialButton>
+              
             </div>
           </div>
 
