@@ -24,7 +24,7 @@ function Navbar(){
                     <button className="hidden text-sm font-medium text-zinc-400 transition-colors duration-200 hover:text-white sm:block">
                         Log in
                     </button>
-                    <button>
+                    <button className="group flex items-center gap-2 rounded-full bg-white px-4 py-2.5 text-sm font-medium text-black transition-transform duration-200 hover:-translate-y-0.5">
                         Start building
                         <ArrowUpRight size={15} strokeWidth={2} className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </button>
